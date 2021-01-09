@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.app.fabrentopartner.fragment.DashboardFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/activity_main" />
+
+    <fragment
+        android:id="@+id/navigation_Lead"
+        android:name="com.app.fabrentopartner.fragment.LeadFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/activity_main" />
+
+    <fragment
+        android:id="@+id/navigation_product"
+        android:name="com.app.fabrentopartner.fragment.RevenueFragment"
+        android:label="@string/title_products"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/navigation_package"
+        android:name="com.app.fabrentopartner.fragment.ShareProductFragment"
+        android:label="@string/title_products"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/navigation_me"
+        android:name="com.app.fabrentopartner.fragment.ProfileFragment"
+        android:label="@string/title_me"
+        tools:layout="@layout/activity_main" />
+</navigation>

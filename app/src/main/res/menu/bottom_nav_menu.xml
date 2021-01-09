@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/dashboard"
+        android:title="@string/title_home"
+        app:iconTint="@color/red" />
+    <item
+        android:id="@+id/navigation_Lead"
+        android:icon="@drawable/reorder"
+        android:title="@string/title_lead"
+        app:iconTint="@color/black" />
+    <item
+        android:id="@+id/navigation_product"
+        android:icon="@drawable/trending"
+        android:title="@string/title_products"
+        app:iconTint="@color/black" />
+
+    <item
+        android:id="@+id/navigation_package"
+        android:icon="@drawable/event"
+        android:title="@string/title_package"
+        app:iconTint="@color/black" />
+
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/usericon"
+        android:title="@string/title_me"
+        app:iconTint="@color/black" />
+
+</menu>

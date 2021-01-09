@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FabrentoPartner</string>
+    <string name="title_home">Leader board</string>
+    <string name="title_lead">Lead</string>
+    <string name="title_products">Revenue</string>
+    <string name="title_package">Product</string>
+    <string name="title_me">Profile</string>
+    <string-array name="Lead_city_array">
+        <item>Delhi</item>
+        <item>Gurugram</item>
+        <item>Ghaziabad</item>
+        <item>Noida</item>
+        <item>Faridabad</item>
+        <item>Mumbai</item>
+        <item>Bangalore</item>
+        <item>Chandigarh</item>
+        <item>Pune</item>
+    </string-array>
+
+    <string-array name="Lead_State_array">
+        <item>Pending</item>
+        <item>Converted</item>
+        <item>Hot</item>
+        <item>Cold</item>
+        <item>Allocated</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Login</string>
+    <string name="revnue">Revenue</string>
+    <string name="lead">Lead</string>
+    <string name="password">Password*</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="dont">Don\'t have an account?</string>
+    <string name="welcome">Welcome To Fabrento Partner</string>
+    <string name="email_address">Email*</string>
+    <string name="noiternet">Please check your internet connection and try again</string>
+</resources>

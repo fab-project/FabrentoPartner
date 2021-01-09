@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DashboardFragment">
+
+    <include layout="@layout/header_common_new" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/ll1"
+        android:background="#757575" />
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_20dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp" />
+
+    <TextView
+        android:id="@+id/txt_heder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:gravity="center"
+        android:text="@string/revnue"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/txt_heder"
+        android:layout_marginTop="10dp"
+        android:padding="@dimen/dimen_20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/barChart"
+        android:layout_marginTop="10dp"
+        android:background="#757575" />
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/barChart"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_lead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:gravity="center"
+            android:text="@string/lead"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <org.eazegraph.lib.charts.PieChart
+            android:id="@+id/piechart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="60dp"
+            app:egEmptyDataText="@string/ellipsis"
+            app:egShowDecimal="true" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/barChart"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:background="#757575" />
+
+    <!-- <LinearLayout
+         android:layout_width="200dp"
+         android:layout_height="match_parent"
+         android:layout_below="@+id/barChart"
+         android:visibility="gone"
+         android:layout_toRightOf="@+id/ll2"
+         android:orientation="vertical">
+
+         <org.eazegraph.lib.charts.StackedBarChart
+             android:id="@+id/stackedbarchart"
+             android:layout_width="match_parent"
+             android:layout_height="350dp"
+             android:layout_marginTop="10dp"
+             android:padding="10dp"
+             app:egBarWidth="20dp"
+             app:egFixedBarWidth="true"
+             app:egLegendHeight="40dp" />
+     </LinearLayout>-->
+</RelativeLayout>

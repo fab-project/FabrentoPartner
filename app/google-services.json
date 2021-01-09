@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "476095375397",
+    "project_id": "fabrento-partner",
+    "storage_bucket": "fabrento-partner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476095375397:android:aa1c9f3a713ab014c1f7cc",
+        "android_client_info": {
+          "package_name": "com.app.fabrentopartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476095375397-3hk37b3ue41lpbbe8qnh4iona306irr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fabrentopartner",
+            "certificate_hash": "913d9b9cb30f26b0eeac626f126f7fb77cbb88ea"
+          }
+        },
+        {
+          "client_id": "476095375397-7smugr7mhg64n34ebhf0b2hcprcfeh8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjtYHmur1klpW0H8cni1gkrCoaZytav3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476095375397-7smugr7mhg64n34ebhf0b2hcprcfeh8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
